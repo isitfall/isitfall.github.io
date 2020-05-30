@@ -1,0 +1,104 @@
+.header {
+    position: fixed;
+    width: 100%;
+    max-height: 77px;
+    background-color: $headerBg;
+    background: linear-gradient(0deg, rgba(194, 194, 194, 0.904) 0%, rgba(194,194,194,1) 43%);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    padding: 12px 0 7px 0;
+    z-index: 1;
+
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__logobox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 27%;
+    }
+
+    &__logo {
+        width: 53px;
+        height: 53px;
+        border: 1px solid #000;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            height: 90%;
+            width: 90%;
+        }
+    }
+
+    &-name {
+        display: flex;
+        flex-direction: column;
+        margin-left: 6px;
+
+        &__header {
+
+            line-height: 44px;
+            font-size: 44px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #383838;
+        }
+
+        &__subheader {
+            font-size: 10.3px;
+            font-weight: 400;
+            letter-spacing: 0.004em;
+            color: #373737;
+        }
+    }
+
+    &-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60%;
+        align-items: center;
+
+        &__item {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 3.5%;
+            font-size: 17px;
+            font-weight: 400;
+            text-transform: uppercase;
+            border-right: 1px solid #202020;
+
+            &:nth-child(6) {
+                border-right: none;
+                padding-right: 0%;
+            }
+
+            
+
+            a {
+                display: block;
+                
+                outline: none;
+                color: #202020;
+                text-decoration: none;
+                transition: 0.2s all;
+                &:hover {
+                    transform: scale(1.05);
+                    color: $mainclr;
+                }
+
+            }
+        }
+    }
+
+
+}

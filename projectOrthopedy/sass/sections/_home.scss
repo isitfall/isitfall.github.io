@@ -1,0 +1,62 @@
+.home {
+    padding-top: 77px;
+    height: 700px;
+    background: url('../img/home/krossovki_nogi_kover_krasnyj_118860_1280x960.jpg') center (center / cover) no-repeat;
+
+    &__wrapper {
+        @include sectionBackground;
+        padding: 0;
+    }
+
+    &__descr {
+        margin: 0 auto;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.932);
+        text-transform: uppercase;
+        padding-top: 7%;
+
+        &-top {
+            font-size: 40px;
+            font-weight: 400;            
+        }
+
+        &-header { 
+            margin-top: 5px;
+            line-height: 157px;
+            font-size: 157px;
+            font-weight: 400;
+            color: #FFF;
+        }
+
+        &-subheader {
+            margin-top: 1%;
+        }
+
+        &-separator {
+            margin: 3% auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 70%;
+            
+            &__line {
+                width: 40%;
+                height: 1px;
+                background-color: rgba(255, 255, 255, 0.932);
+            }
+
+            &__dot {
+                width: 10px;
+                height: 10px;
+                background-color: rgba(255, 255, 255, 0.932);
+                border-radius: 100%;
+            }            
+        }
+    }
+
+    &__btn {
+        @include btn;
+    }
+
+}
