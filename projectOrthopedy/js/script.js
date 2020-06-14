@@ -117,6 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
               tabsParent = document.querySelector('.modal__item__tabs');
 
               console.log(tabsContent);
+        tabsContent[0].style = 'display: block';
 
 
 
