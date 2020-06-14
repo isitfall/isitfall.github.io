@@ -86,10 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.body.style = 'overflow: hidden';  
             });
         
-        }      
-
-        openFirstModalWin();
-        openSecondModalWin();
+        }    
 
         function closeServiceModals() {
             closeBtn.forEach(item => {
@@ -102,7 +99,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
             });
         }
-        
+        openFirstModalWin();
+        openSecondModalWin();
         closeServiceModals();           
                
     }
@@ -118,6 +116,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
               console.log(tabsContent);
         tabsContent[0].style = 'display: block';
+        
+        tabsContent.forEach(item => {
+            item.classList.add('modal__item__descr__hide');   
+            tabsContent[1].classList.remove('modal__item__descr__hide');         
+        });
+        
+        
 
 
 
