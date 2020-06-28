@@ -1,0 +1,30 @@
+.calc {
+    background-color: rgba(21, 204, 204, 0.788);
+    padding: 12.2% 0;
+    height: 100%;
+}
+
+.calc__box {
+    margin: 0 auto;
+    width: 300px;
+    height: 500px;
+    padding: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(253, 253, 253, 0.774);
+    border-radius: 33px;
+    box-shadow: 3px 13px rgba(0, 0, 0, 0.212); 
+}
+
+.calc__display {
+    height: 37%;
+    max-width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 8%;
+    text-align: right;
+    outline: none;
+    margin: 0 auto 3% auto;
+    font-size: 33px;
+    font-weight: 700;
+}
