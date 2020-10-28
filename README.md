@@ -16,7 +16,7 @@
 *****************************************************************************************
 
 
-2. https://isitfall.github.io/yaPitalsya
+2. https://isitfall.github.io/projectOrthopedy
 
     -без макета
     -без адаптации
