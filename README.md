@@ -2,7 +2,7 @@
 
 1. https://isitfall.github.io/yaPitalsya это:
 
-    -тестовое задание по увлекательнейшему макету: https://sun9-21.userapi.com/x5TAma9hhnT3l0mrjS9lUC64AnVINDiWibaQJA/Xl88MTtZUp0.jpg
+    -тестовое задание по увлекательнейшему макету: https://clck.ru/ReAWJ
     
     -проект адаптивен (при смене разрешения просьба ПЕРЕЗАГРУЖАТЬ страницу, чтобы скрипт подхватывал текущую ширину окна)
     
